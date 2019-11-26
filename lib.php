@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-function local_mdl56886_extend_navigation($navigation) {
+function local_mdl56886_extend_navigation(global_navigation $navigation) {
     $class = get_class($navigation);
 
     switch($class) {
